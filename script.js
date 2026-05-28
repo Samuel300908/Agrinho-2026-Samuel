@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     
-    // 1. Menu Mobile (Hamburguer)
+    // 1. Controle do Menu Mobile (Responsividade)
     const mobileMenu = document.getElementById('mobile-menu');
     const navList = document.getElementById('nav-list');
     
@@ -17,18 +17,18 @@ document.addEventListener('DOMContentLoaded', () => {
     if (filterButtons.length > 0 && cards.length > 0) {
         filterButtons.forEach(button => {
             button.addEventListener('click', () => {
-                // Remove classe ativa de todos os botões e adiciona no clicado
+                // Atualiza estados visuais dos botões
                 filterButtons.forEach(btn => btn.classList.remove('active'));
                 button.classList.add('active');
 
                 const filterValue = button.getAttribute('data-filter');
 
+                // Filtra os elementos em tela
                 cards.forEach(card => {
                     const cardCategory = card.getAttribute('data-category');
                     
                     if (filterValue === 'all' || cardCategory === filterValue) {
-                        card.style.display = 'block';
-                        // Efeito suave de entrada
+                        card.style.display = 'flex';
                         card.style.opacity = '0';
                         setTimeout(() => { card.style.opacity = '1'; }, 50);
                     } else {
@@ -39,13 +39,13 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 3. Formulário Profissional
+    // 3. Validação Básica de Envio do Formulário
     const form = document.getElementById('agrinhoForm');
     if (form) {
         form.addEventListener('submit', (e) => {
             e.preventDefault();
             const nome = document.getElementById('nome').value;
-            alert(`Mensagem processada! Obrigado por fortalecer o Agrinho 2026, ${nome}.`);
+            alert(`Obrigado pelo contato, ${nome}! A coordenação do Projeto Agrinho do CCM Érico Veríssimo agradece seu envio.`);
             form.reset();
         });
     }
