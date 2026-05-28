@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Agrinho 2026 | Nossas Ações</title>
+    <title>Agrinho 2026 | Portfólio de Ações</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,9 +11,12 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <h1>Agrinho <span>2026</span></h1>
+                <h1>Agrinho<span>2026</span></h1>
             </div>
-            <ul class="nav-links">
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links" id="nav-list">
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="acoes.html" class="active">Ações</a></li>
@@ -23,28 +26,46 @@
     </header>
 
     <main class="container">
-        <h2 class="section-title">Ações em Desenvolvimento</h2>
-        <div class="grid">
-            <div class="card">
-                <img src="https://picsum.photos/400/300?garden" alt="Horta Escolar">
-                <h3>Horta Orgânica Escolar</h3>
-                <p>Implantação de uma horta cuidada pelos próprios alunos, aplicando técnicas de compostagem e adubação natural sem defensivos químicos.</p>
+        <h2 class="section-title">Nossas Iniciativas Práticas</h2>
+        <p class="section-subtitle">Filtre os projetos executados ao longo do ano letivo de 2026</p>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="manejo">Manejo</button>
+            <button class="filter-btn" data-filter="tecnologia">Tecnologia</button>
+            <button class="filter-btn" data-filter="reciclagem">Reciclagem</button>
+        </div>
+
+        <div class="grid" id="portfolio-grid">
+            <div class="card" data-category="manejo">
+                <div class="card-image-wrapper"><img src="https://picsum.photos/600/400?garden" alt="Horta"></div>
+                <div class="card-content">
+                    <span class="category-badge">Manejo</span>
+                    <h3>Horta de Precisão Orgânica</h3>
+                    <p>Produção contínua de hortaliças sem defensivos químicos, utilizando o conceito de rotação de culturas.</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="https://picsum.photos/400/300?recycle" alt="Reciclagem">
-                <h3>Coleta Seletiva Inteligente</h3>
-                <p>Criação de pontos de descarte correto na escola e oficinas para transformar materiais recicláveis em ferramentas úteis para o dia a dia.</p>
+            <div class="card" data-category="tecnologia">
+                <div class="card-image-wrapper"><img src="https://picsum.photos/600/400?code" alt="Sensores"></div>
+                <div class="card-content">
+                    <span class="category-badge">Tecnologia</span>
+                    <h3>Irrigação via Sensores</h3>
+                    <p>Plataforma programada pelos estudantes para evitar o desperdício de água através de leitores de solo.</p>
+                </div>
             </div>
-            <div class="card">
-                <img src="https://picsum.photos/400/300?water" alt="Economia de Água">
-                <h3>Captação da Água da Chuva</h3>
-                <p>Estudo e montagem de uma mini-cisterna para coletar água pluvial, utilizada posteriormente na irrigação do jardim e limpeza da escola.</p>
+            <div class="card" data-category="reciclagem">
+                <div class="card-image-wrapper"><img src="https://picsum.photos/600/400?compost" alt="Composteira"></div>
+                <div class="card-content">
+                    <span class="category-badge">Reciclagem</span>
+                    <h3>Compostagem de Resíduos</h3>
+                    <p>Conversão de restos orgânicos da merenda escolar em adubo rico em nutrientes minerais de alta qualidade.</p>
+                </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2026 Projeto Agrinho Escolar. Todos os direitos reservados.</p>
+        <p>&copy; 2026 Portal Agrinho Avançado. Desenvolvido com foco no Futuro do Campo.</p>
     </footer>
 
     <script src="script.js"></script>
