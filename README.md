@@ -7,8 +7,8 @@ Bem-vindo(a) ao repositório do nosso projeto participante do **Programa Agrinho
 [Este projeto é uma plataforma web informativa/interativa cujo objetivo é conscientizar os estudantes sobre a importância da preservação ambiental, abordando o uso correto da água e práticas de agricultura sustentável na nossa região.]
 
 ## 🎯 Objetivo
-* **Problema Identificado:** [Problemas nas lavouras?]
-* **Nossa Solução:** [De forma rápida e eficaz, solucionamos o probelma?]
+* **Problema Identificado:** [Problemas nas lavouras]
+* **Nossa Solução:** [De forma rápida e eficaz, solucionamos o probelma]
 
 ## 🛠️ Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
