@@ -4,11 +4,11 @@
 Bem-vindo(a) ao repositório do nosso projeto participante do **Programa Agrinho**! Este espaço foi desenvolvido para documentar, organizar e apresentar a nossa solução voltada para a sustentabilidade, cidadania e inovação.
 
 ## 📝 Visão Geral
-[Escreva um resumo de 3 a 5 linhas sobre o que é o seu projeto. Ex: Este projeto é uma plataforma web informativa/interativa cujo objetivo é conscientizar os estudantes sobre a importância da preservação ambiental, abordando o uso correto da água e práticas de agricultura sustentável na nossa região.]
+[Este projeto é uma plataforma web informativa/interativa cujo objetivo é conscientizar os estudantes sobre a importância da preservação ambiental, abordando o uso correto da água e práticas de agricultura sustentável na nossa região.]
 
 ## 🎯 Objetivo
-* **Problema Identificado:** [Qual problema ou desafio vocês resolveram ou investigaram?]
-* **Nossa Solução:** [Como o projeto resolve ou conscientiza sobre esse problema?]
+* **Problema Identificado:** [Problemas nas lavouras?]
+* **Nossa Solução:** [De forma rápida e eficaz, solucionamos o probelma?]
 
 ## 🛠️ Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
@@ -18,9 +18,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 * **Ferramentas:** [VS Code / Editor online]
 
 ## ✨ Funcionalidades Principais
-* **[Funcionalidade 1]:** [Ex: Página interativa com quizzes sobre meio ambiente.]
-* **[Funcionalidade 2]:** [Ex: Galeria de fotos e propostas de intervenção na comunidade.]
-* **[Funcionalidade 3]:** [Ex: Design adaptado para celulares e computadores.]
+* **[Funcionalidade 1]:** [Página interativa com quizzes sobre meio ambiente.]
+* **[Funcionalidade 2]:** [Galeria de fotos e propostas de intervenção na comunidade.]
+* **[Funcionalidade 3]:** [Design adaptado para celulares e computadores.]
 
 ## 🚀 Como Acessar o Projeto
 Você pode acessar a versão final da nossa página web clicando no link abaixo:
